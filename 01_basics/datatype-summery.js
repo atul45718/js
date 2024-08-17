@@ -32,14 +32,41 @@ const myFunction = function(){
     console.log("Hello world");
     
 }
-console.log( typeof outsideTemp);
-console.log( typeof myFunction);
-console.log( typeof anotherId);
+// console.log( typeof outsideTemp);
+// console.log( typeof myFunction);
+// console.log( typeof anotherId);
 
-const value=Symbol(123)
-console.log( typeof value);
+// const value=Symbol(123)
+// console.log( typeof value);
 
 // The typeof operator check below link
 
 //https://262.ecma-international.org/5.1/#sec-11.4.3
+
+ 
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack Memory (primitive) , Heap Memory (Non- primitive)
+
+// stack - Changes in copy value
+
+let myYoutbename = "atulkumar"
+
+
+let anotherName = myYoutbename
+anotherName = "Chai and Code "
+console.log(anotherName);
+console.log(myYoutbename);
+
+// Heap - changes in original value  or references  value
+
+let userOne = {
+    email:"user@gmail.com",
+    upi: "user@bl"
+}
+let userTwo = userOne
+ userTwo.email = "atul@gmail.com"
+ console.log(userOne);
+ console.log(userTwo);
+ 
  
