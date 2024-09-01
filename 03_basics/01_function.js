@@ -36,5 +36,20 @@ function loginUserMessage(username ="sam"){
       return `${username} just logged in`  
 }
 // console.log(loginUserMessage("atul"));
-console.log(loginUserMessage());
+// console.log(loginUserMessage());
+
+// rest operater (...):-rest operater to use pass the multiple value as argument then use rest operter in parameter
+function calculateCartPrice( val1 , val2 , ...num1){
+     return num1
+}
+// console.log(calculateCartPrice(200 , 400 ,500 ,6000));
+
+const user ={
+  username:"atul",
+  price:199
+}
+function handleObject(anyObject){
+  log
+
+}
 
