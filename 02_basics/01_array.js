@@ -23,7 +23,7 @@ const myArr2 = new Array(1,2,3)
 // console.log(myArr);
 // console.log( typeof newArr);
 
-// slice , splice
+// slice , splice (interviews Questions arise is to be Diff.between slice and splice => slice can change the copy array but splice can changes in orginal array)
 
 console.log("A", myArr);
 const myn1 = myArr.slice(1,3)
